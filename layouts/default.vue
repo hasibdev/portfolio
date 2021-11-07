@@ -4,7 +4,7 @@
         <sidebar :isDarkMode="isDarkMode" @toggleDarkMode="toggleDarkMode"></sidebar>
 
         <!-- Main Content -->
-        <main class="flex-grow dark:bg-gray-600">
+        <main class="main-content">
             <Nuxt />
         </main>
     </div>
@@ -31,4 +31,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.main-content {
+    @apply flex-grow text-black dark:text-white dark:bg-black transition-all duration-300;
+}
 </style>

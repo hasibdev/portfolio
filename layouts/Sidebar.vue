@@ -79,13 +79,13 @@
 
         <div>
             <p>
-                <font-awesome-icon :icon="['fas', 'adjust']"></font-awesome-icon> Dark Mode
+                <font-awesome-icon :icon="['fas', 'adjust']"></font-awesome-icon> {{!isDarkMode?'Dark':'Light'}} Mode
             </p>
 
             <!-- Toggled switch -->
-            <div class="flex justify-center items-center mt-4">
+            <div class="flex justify-center items-center mt-4 cursor-pointer">
                 <!-- Switch Container -->
-                <div class="w-14 h-7 flex items-center bg-gray-300 rounded-full mx-3 px-1" :class="{'bg-blue-700': isDarkMode}" @click="$emit('toggleDarkMode')">
+                <div class="w-14 h-7 flex items-center rounded-full mx-3 px-1" :class="`${isDarkMode?'bg-green-700':'bg-navy'}`" @click="$emit('toggleDarkMode')">
                     <!-- Switch -->
                     <div class=" bg-white w-5 h-5 rounded-full shadow-md transform transition-transform duration-300 " :class="{'translate-x-7': isDarkMode}"></div>
                 </div>
@@ -110,7 +110,7 @@ export default {
 #sidebar_header {
     width: 280px;
 
-    @apply text-white bg-green-600 p-4 flex flex-col items-center h-screen overflow-x-hidden overflow-y-auto;
+    @apply text-white bg-green-600 p-4 flex flex-col items-center h-screen overflow-x-hidden overflow-y-auto dark:bg-navy transition-all duration-300;
 
     .social-icon {
         @apply p-2 mx-1 text-lg bg-gray-200 rounded-full w-10 h-10 inline-block text-green-600 text-center hover:text-green-800 transition-colors duration-300;
