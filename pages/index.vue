@@ -1,6 +1,9 @@
 <template>
     <div>
-        <h1>Home Page</h1>
+        <!-- About Section -->
+        <section>
+            <h1>Hasibur Rahman</h1>
+        </section>
     </div>
 </template>
 

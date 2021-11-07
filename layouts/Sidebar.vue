@@ -34,37 +34,37 @@
 
         <!-- Navigation -->
         <nav class="flex flex-col text-gray-100">
-            <nuxt-link to="/" class="p-1 mb-1 hover:text-gray-800 transition-colors duration-300">
+            <nuxt-link to="/" class="p-1 mb-1 hover:text-primary-dark transition-colors duration-300">
                 <span class="inline-block w-8 text-center">
                     <font-awesome-icon :icon="['fas', 'user']"></font-awesome-icon>
                 </span>
                 <span class="text-md font-semibold">About Me</span>
             </nuxt-link>
-            <nuxt-link to="/portfolio" class="p-1 mb-1 hover:text-gray-800 transition-colors duration-300">
+            <nuxt-link to="/portfolio" class="p-1 mb-1 hover:text-primary-dark transition-colors duration-300">
                 <span class="inline-block w-8 text-center">
                     <font-awesome-icon :icon="['fas', 'laptop-code']"></font-awesome-icon>
                 </span>
                 <span class="text-md font-semibold">Portfolio</span>
             </nuxt-link>
-            <nuxt-link to="/services" class="p-1 mb-1 hover:text-gray-800 transition-colors duration-300">
+            <nuxt-link to="/services" class="p-1 mb-1 hover:text-primary-dark transition-colors duration-300">
                 <span class="inline-block w-8 text-center">
                     <font-awesome-icon :icon="['fas', 'briefcase']"></font-awesome-icon>
                 </span>
                 <span class="text-md font-semibold">Services &amp; Pricing</span>
             </nuxt-link>
-            <nuxt-link to="/resume" class="p-1 mb-1 hover:text-gray-800 transition-colors duration-300">
+            <nuxt-link to="/resume" class="p-1 mb-1 hover:text-primary-dark transition-colors duration-300">
                 <span class="inline-block w-8 text-center">
                     <font-awesome-icon :icon="['fas', 'file-alt']"></font-awesome-icon>
                 </span>
                 <span class="text-md font-semibold">Resume</span>
             </nuxt-link>
-            <nuxt-link to="/blog" class="p-1 mb-1 hover:text-gray-800 transition-colors duration-300">
+            <nuxt-link to="/blog" class="p-1 mb-1 hover:text-primary-dark transition-colors duration-300">
                 <span class="inline-block w-8 text-center">
                     <font-awesome-icon :icon="['fas', 'blog']"></font-awesome-icon>
                 </span>
                 <span class="text-md font-semibold">Blog</span>
             </nuxt-link>
-            <nuxt-link to="/contact" class="p-1 mb-1 hover:text-gray-800 transition-colors duration-300">
+            <nuxt-link to="/contact" class="p-1 mb-1 hover:text-primary-dark transition-colors duration-300">
                 <span class="inline-block w-8 text-center">
                     <font-awesome-icon :icon="['fas', 'envelope']"></font-awesome-icon>
                 </span>
@@ -85,7 +85,7 @@
             <!-- Toggled switch -->
             <div class="flex justify-center items-center mt-4 cursor-pointer">
                 <!-- Switch Container -->
-                <div class="w-14 h-7 flex items-center rounded-full mx-3 px-1" :class="`${isDarkMode?'bg-green-700':'bg-navy'}`" @click="$emit('toggleDarkMode')">
+                <div class="w-14 h-7 flex items-center rounded-full mx-3 px-1" :class="`${isDarkMode?'bg-primary':'bg-navy'}`" @click="$emit('toggleDarkMode')">
                     <!-- Switch -->
                     <div class=" bg-white w-5 h-5 rounded-full shadow-md transform transition-transform duration-300 " :class="{'translate-x-7': isDarkMode}"></div>
                 </div>
@@ -110,7 +110,7 @@ export default {
 #sidebar_header {
     width: 280px;
 
-    @apply text-white bg-green-600 p-4 flex flex-col items-center h-screen overflow-x-hidden overflow-y-auto dark:bg-navy transition-all duration-300;
+    @apply text-white bg-primary p-4 flex flex-col items-center h-screen overflow-x-hidden overflow-y-auto dark:bg-navy transition-all duration-300;
 
     .social-icon {
         @apply p-2 mx-1 text-lg bg-gray-200 rounded-full w-10 h-10 inline-block text-green-600 text-center hover:text-green-800 transition-colors duration-300;
