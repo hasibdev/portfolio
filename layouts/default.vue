@@ -1,10 +1,10 @@
 <template>
-    <div class="flex min-h-screen">
+    <div class="flex min-h-screen dark">
         <!-- Sidebar -->
         <sidebar></sidebar>
 
         <!-- Main Content -->
-        <main class="flex-grow">
+        <main class="flex-grow dark:bg-gray-600">
             <Nuxt />
         </main>
     </div>

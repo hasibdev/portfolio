@@ -1,6 +1,6 @@
 <template>
     <header id="sidebar_header">
-        <div class="border-b border-gray-300 mb-6 pb-4">
+        <div class="">
             <h3 class="text-2xl text-center mt-8 mb-6 font-bold">Hasibur Rahman</h3>
             <!-- Image -->
             <div class="rounded-full overflow-hidden w-36 h-36 mx-auto">
@@ -28,6 +28,9 @@
                 </a>
             </div>
         </div>
+
+        <!-- Divider -->
+        <div class="border-b border-gray-400 w-11/12 my-5"></div>
 
         <!-- Navigation -->
         <nav class="flex flex-col text-gray-100">
@@ -68,6 +71,40 @@
                 <span class="text-md font-semibold">Contact</span>
             </nuxt-link>
         </nav>
+
+        <!-- Divider -->
+        <div class="border-b border-gray-400 w-11/12 my-5"></div>
+
+        <!-- Dark Mode -->
+
+        <div class="">
+            <p class="mb-3">
+                <font-awesome-icon :icon="['fas', 'adjust']"></font-awesome-icon> Dark Mode
+            </p>
+            <!-- Toggle Button -->
+            <div class="flex items-center justify-center">
+                <input type="checkbox" name="toggle" class="hidden" />
+                <label class="relative w-12 h-6 flex select-none cursor-pointer" for="toggle">
+                    <span class=" absolute left-0 top-0 h-full w-full bg-gray-100 rounded-full"></span>
+                    <span class="
+        h-6
+        w-6
+        border-2
+        absolute
+        z-10
+        rounded-full
+        bg-green-700
+        transition-transform
+        duration-300
+        ease-in-out
+        flex
+        justify-center
+        items-center
+        border-gray-100
+      "></span>
+                </label>
+            </div>
+        </div>
 
     </header>
 </template>
