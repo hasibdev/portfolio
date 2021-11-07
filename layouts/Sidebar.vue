@@ -1,5 +1,5 @@
 <template>
-    <header id="sidebar_header" class="text-white bg-green-600 p-4 flex flex-col items-center">
+    <header id="sidebar_header">
         <div class="border-b border-gray-300 mb-6 pb-4">
             <h3 class="text-2xl text-center mt-8 mb-6 font-bold">Hasibur Rahman</h3>
             <!-- Image -->
@@ -7,7 +7,7 @@
                 <img src="/images/fb-me.jpg" alt="Hasibur Rahman">
             </div>
             <!-- Bio -->
-            <p class="text-center mt-6">Hi, I'm Hasib and I'm a senior Front-end Developer. Welcome to my personal website! </p>
+            <p class="text-center mt-6 ">Hi, I'm Hasib and I'm a senior Front-end Developer. Welcome to my personal website! </p>
 
             <!-- Social Icons -->
             <div class="flex justify-center items-center my-4">
@@ -30,13 +30,43 @@
         </div>
 
         <!-- Navigation -->
-        <nav class="flex flex-col">
-            <nuxt-link to="/">About Me</nuxt-link>
-            <nuxt-link to="/portfolio">Portfolio</nuxt-link>
-            <nuxt-link to="/services">Services &amp; Pricing </nuxt-link>
-            <nuxt-link to="/resume">Resume</nuxt-link>
-            <nuxt-link to="/blog">Blog</nuxt-link>
-            <nuxt-link to="/contact">Contact</nuxt-link>
+        <nav class="flex flex-col text-gray-100">
+            <nuxt-link to="/" class="p-1 mb-1 hover:text-gray-800 transition-colors duration-300">
+                <span class="inline-block w-8 text-center">
+                    <font-awesome-icon :icon="['fas', 'user']"></font-awesome-icon>
+                </span>
+                <span class="text-md font-semibold">About Me</span>
+            </nuxt-link>
+            <nuxt-link to="/portfolio" class="p-1 mb-1 hover:text-gray-800 transition-colors duration-300">
+                <span class="inline-block w-8 text-center">
+                    <font-awesome-icon :icon="['fas', 'laptop-code']"></font-awesome-icon>
+                </span>
+                <span class="text-md font-semibold">Portfolio</span>
+            </nuxt-link>
+            <nuxt-link to="/services" class="p-1 mb-1 hover:text-gray-800 transition-colors duration-300">
+                <span class="inline-block w-8 text-center">
+                    <font-awesome-icon :icon="['fas', 'briefcase']"></font-awesome-icon>
+                </span>
+                <span class="text-md font-semibold">Services &amp; Pricing</span>
+            </nuxt-link>
+            <nuxt-link to="/resume" class="p-1 mb-1 hover:text-gray-800 transition-colors duration-300">
+                <span class="inline-block w-8 text-center">
+                    <font-awesome-icon :icon="['fas', 'file-alt']"></font-awesome-icon>
+                </span>
+                <span class="text-md font-semibold">Resume</span>
+            </nuxt-link>
+            <nuxt-link to="/blog" class="p-1 mb-1 hover:text-gray-800 transition-colors duration-300">
+                <span class="inline-block w-8 text-center">
+                    <font-awesome-icon :icon="['fas', 'blog']"></font-awesome-icon>
+                </span>
+                <span class="text-md font-semibold">Blog</span>
+            </nuxt-link>
+            <nuxt-link to="/contact" class="p-1 mb-1 hover:text-gray-800 transition-colors duration-300">
+                <span class="inline-block w-8 text-center">
+                    <font-awesome-icon :icon="['fas', 'envelope']"></font-awesome-icon>
+                </span>
+                <span class="text-md font-semibold">Contact</span>
+            </nuxt-link>
         </nav>
 
     </header>
@@ -52,8 +82,31 @@ export default {
 #sidebar_header {
     width: 280px;
 
+    @apply text-white bg-green-600 p-4 flex flex-col items-center h-screen overflow-x-hidden overflow-y-auto;
+
     .social-icon {
-        @apply p-2 mx-1 text-lg bg-gray-200 rounded-full w-10 h-10 inline-block text-green-600 text-center;
+        @apply p-2 mx-1 text-lg bg-gray-200 rounded-full w-10 h-10 inline-block text-green-600 text-center hover:text-green-800 transition-colors duration-300;
+    }
+
+    // Scroll bar style
+    /* width */
+    &::-webkit-scrollbar {
+        width: 6px;
+    }
+
+    /* Track */
+    &::-webkit-scrollbar-track {
+        background: transparent;
+    }
+
+    /* Handle */
+    &::-webkit-scrollbar-thumb {
+        @apply bg-green-800 rounded;
+    }
+
+    /* Handle on hover */
+    &::-webkit-scrollbar-thumb:hover {
+        @apply bg-green-900;
     }
 }
 </style>
