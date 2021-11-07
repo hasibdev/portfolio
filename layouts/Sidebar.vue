@@ -77,32 +77,18 @@
 
         <!-- Dark Mode -->
 
-        <div class="">
-            <p class="mb-3">
+        <div>
+            <p>
                 <font-awesome-icon :icon="['fas', 'adjust']"></font-awesome-icon> Dark Mode
             </p>
-            <!-- Toggle Button -->
-            <div class="flex items-center justify-center">
-                <input type="checkbox" name="toggle" class="hidden" />
-                <label class="relative w-12 h-6 flex select-none cursor-pointer" for="toggle">
-                    <span class=" absolute left-0 top-0 h-full w-full bg-gray-100 rounded-full"></span>
-                    <span class="
-        h-6
-        w-6
-        border-2
-        absolute
-        z-10
-        rounded-full
-        bg-green-700
-        transition-transform
-        duration-300
-        ease-in-out
-        flex
-        justify-center
-        items-center
-        border-gray-100
-      "></span>
-                </label>
+
+            <!-- Toggled switch -->
+            <div class="flex justify-center items-center mt-4">
+                <!-- Switch Container -->
+                <div class="w-14 h-7 flex items-center bg-gray-300 rounded-full mx-3 px-1" :class="{'bg-blue-700': isDarkMode}" @click="$emit('toggleDarkMode')">
+                    <!-- Switch -->
+                    <div class=" bg-white w-5 h-5 rounded-full shadow-md transform transition-transform duration-300 " :class="{'translate-x-7': isDarkMode}"></div>
+                </div>
             </div>
         </div>
 
@@ -111,7 +97,12 @@
 
 <script>
 export default {
-
+    props: {
+        isDarkMode: {
+            type: Boolean,
+            required: true
+        },
+    },
 }
 </script>
 
