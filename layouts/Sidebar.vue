@@ -1,5 +1,5 @@
 <template>
-    <header id="sidebar_header" class="lg:relative lg:translate-x-0 absolute transform" :class="{'-translate-x-full' : !isSidebarOpen}">
+    <header id="sidebar_header" class="lg:relative lg:translate-x-0 absolute transform custom-scrollbar" :class="{'-translate-x-full' : !isSidebarOpen}">
         <div class="">
             <h3 class="text-2xl text-center mt-2 mb-6 font-bold">Hasibur Rahman</h3>
             <!-- Image -->
@@ -113,33 +113,10 @@ export default {
 <style lang="scss" scoped>
 #sidebar_header {
     // width: 300px !important;
-    scrollbar-width: thin;
-
     @apply z-20 lg:w-96 w-72 text-white bg-primary p-4 flex flex-col items-center h-screen overflow-x-hidden overflow-y-auto dark:bg-navy transition-all duration-300;
 
     .social-icon {
         @apply p-2 mx-1 text-lg bg-gray-200 rounded-full w-10 h-10 inline-block text-green-600 text-center hover:text-green-800 transition-colors duration-300;
-    }
-
-    // Scroll bar style
-    /* width */
-    &::-webkit-scrollbar {
-        width: 6px;
-    }
-
-    /* Track */
-    &::-webkit-scrollbar-track {
-        background: transparent;
-    }
-
-    /* Handle */
-    &::-webkit-scrollbar-thumb {
-        @apply bg-green-800 rounded;
-    }
-
-    /* Handle on hover */
-    &::-webkit-scrollbar-thumb:hover {
-        @apply bg-green-900;
     }
 }
 </style>

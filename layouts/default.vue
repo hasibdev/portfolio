@@ -1,13 +1,13 @@
 <template>
     <client-only>
-        <div class="flex min-h-screen" :class="{'dark' : isDarkMode}">
+        <div class="flex h-screen overflow-hidden" :class="{'dark' : isDarkMode}">
             <!-- Sidebar -->
             <sidebar :isSidebarOpen="isSidebarOpen" :isDarkMode="isDarkMode" @toggleDarkMode="toggleDarkMode"></sidebar>
             <!-- Overlay -->
-            <div v-if="isSidebarOpen" @click="isSidebarOpen = false" class="bg-gray-900 bg-opacity-80 fixed w-screen h-screen lg:hidden"></div>
+            <div v-if="isSidebarOpen" @click="isSidebarOpen = false" class="bg-gray-900 bg-opacity-90 fixed w-screen h-screen lg:hidden"></div>
 
             <!-- Main Content -->
-            <main class="main-content">
+            <main class="main-content overflow-y-auto custom-scrollbar">
                 <!-- Mobile Header -->
                 <div class="lg:hidden py-4 px-6 bg-primary dark:bg-navy flex items-center">
                     <button @click="isSidebarOpen = true" class="p-2">
@@ -56,7 +56,32 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+// Main Content
 .main-content {
     @apply w-full text-black dark:text-white dark:bg-black transition-all duration-300;
+}
+
+.custom-scrollbar {
+    scrollbar-width: thin;
+    // Scroll bar style
+    /* width */
+    &::-webkit-scrollbar {
+        width: 6px;
+    }
+
+    /* Track */
+    &::-webkit-scrollbar-track {
+        background: transparent;
+    }
+
+    /* Handle */
+    &::-webkit-scrollbar-thumb {
+        @apply bg-green-800 rounded;
+    }
+
+    /* Handle on hover */
+    &::-webkit-scrollbar-thumb:hover {
+        @apply bg-green-900;
+    }
 }
 </style>
