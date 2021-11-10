@@ -1,13 +1,15 @@
 <template>
-    <div class="flex min-h-screen" :class="{'dark' : isDarkMode}">
-        <!-- Sidebar -->
-        <sidebar :isDarkMode="isDarkMode" @toggleDarkMode="toggleDarkMode"></sidebar>
+    <client-only>
+        <div class="flex min-h-screen" :class="{'dark' : isDarkMode}">
+            <!-- Sidebar -->
+            <sidebar :isDarkMode="isDarkMode" @toggleDarkMode="toggleDarkMode"></sidebar>
 
-        <!-- Main Content -->
-        <main class="main-content">
-            <Nuxt />
-        </main>
-    </div>
+            <!-- Main Content -->
+            <main class="main-content">
+                <Nuxt />
+            </main>
+        </div>
+    </client-only>
 </template>
 
 <script>
@@ -32,6 +34,6 @@ export default {
 
 <style lang="scss" scoped>
 .main-content {
-    @apply flex-grow text-black dark:text-white dark:bg-black transition-all duration-300;
+    @apply w-full text-black dark:text-white dark:bg-black transition-all duration-300;
 }
 </style>

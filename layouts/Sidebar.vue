@@ -1,13 +1,13 @@
 <template>
     <header id="sidebar_header">
         <div class="">
-            <h3 class="text-2xl text-center mt-8 mb-6 font-bold">Hasibur Rahman</h3>
+            <h3 class="text-2xl text-center mt-2 mb-6 font-bold">Hasibur Rahman</h3>
             <!-- Image -->
             <div class="rounded-full overflow-hidden w-36 h-36 mx-auto">
                 <img src="/images/fb-me.jpg" alt="Hasibur Rahman">
             </div>
             <!-- Bio -->
-            <p class="text-center mt-6 ">Hi, I'm Hasib and I'm a senior Front-end Developer. Welcome to my personal website! </p>
+            <p class="text-center mt-6 ">I'm a web developer specialised in frontend for complex scalable web apps. And also I have a very good understanding of backend technologies as well.</p>
 
             <!-- Social Icons -->
             <div class="flex justify-center items-center my-4">
@@ -78,9 +78,9 @@
         <!-- Dark Mode -->
 
         <div>
-            <p>
+            <div>
                 <font-awesome-icon :icon="['fas', 'adjust']"></font-awesome-icon> {{!isDarkMode?'Dark':'Light'}} Mode
-            </p>
+            </div>
 
             <!-- Toggled switch -->
             <div class="flex justify-center items-center mt-4 cursor-pointer">
@@ -108,7 +108,8 @@ export default {
 
 <style lang="scss" scoped>
 #sidebar_header {
-    width: 280px;
+    width: 340px !important;
+    scrollbar-width: thin;
 
     @apply text-white bg-primary p-4 flex flex-col items-center h-screen overflow-x-hidden overflow-y-auto dark:bg-navy transition-all duration-300;
 
