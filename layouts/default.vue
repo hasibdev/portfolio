@@ -27,7 +27,17 @@ export default {
     methods: {
         toggleDarkMode() {
             this.isDarkMode = !this.isDarkMode
+            localStorage.setItem('isDarkMode', JSON.stringify(this.isDarkMode))
+        },
+        storageDarkMode() {
+            const hasValue = localStorage.getItem('isDarkMode')
+
+            if (!hasValue) localStorage.setItem('isDarkMode', JSON.stringify(this.isDarkMode))
+            else this.isDarkMode = JSON.parse(hasValue)
         }
+    },
+    mounted() {
+        this.storageDarkMode()
     },
 }
 </script>

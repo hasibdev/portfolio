@@ -111,7 +111,7 @@ export default {
     width: 340px !important;
     scrollbar-width: thin;
 
-    @apply text-white bg-primary p-4 flex flex-col items-center h-screen overflow-x-hidden overflow-y-auto dark:bg-navy transition-all duration-300;
+    @apply text-white bg-primary p-4 flex flex-col items-center h-screen overflow-x-hidden overflow-y-auto dark:bg-navy transition-all duration-300 lg:relative lg:translate-x-0 absolute transform -translate-x-full;
 
     .social-icon {
         @apply p-2 mx-1 text-lg bg-gray-200 rounded-full w-10 h-10 inline-block text-green-600 text-center hover:text-green-800 transition-colors duration-300;
