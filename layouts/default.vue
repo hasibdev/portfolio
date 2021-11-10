@@ -2,10 +2,20 @@
     <client-only>
         <div class="flex min-h-screen" :class="{'dark' : isDarkMode}">
             <!-- Sidebar -->
-            <sidebar :isDarkMode="isDarkMode" @toggleDarkMode="toggleDarkMode"></sidebar>
+            <sidebar :isSidebarOpen="isSidebarOpen" :isDarkMode="isDarkMode" @toggleDarkMode="toggleDarkMode"></sidebar>
+            <!-- Overlay -->
+            <div v-if="isSidebarOpen" @click="isSidebarOpen = false" class="bg-gray-900 bg-opacity-80 fixed w-screen h-screen lg:hidden"></div>
 
             <!-- Main Content -->
             <main class="main-content">
+                <!-- Mobile Header -->
+                <div class="lg:hidden py-4 px-6 bg-primary dark:bg-navy flex items-center">
+                    <button @click="isSidebarOpen = true" class="p-2">
+                        <menu-icon></menu-icon>
+                    </button>
+                    <h1 class="text-center text-2xl flex-grow ">Hasibur Rahman</h1>
+                </div>
+
                 <Nuxt />
             </main>
         </div>
@@ -14,13 +24,16 @@
 
 <script>
 import Sidebar from './Sidebar.vue'
+import MenuIcon from '@/components/icons/menu-alt-1.vue'
 export default {
     components: {
         Sidebar,
+        MenuIcon
     },
     data() {
         return {
-            isDarkMode: false
+            isDarkMode: false,
+            isSidebarOpen: false
         }
     },
 
@@ -34,7 +47,7 @@ export default {
 
             if (!hasValue) localStorage.setItem('isDarkMode', JSON.stringify(this.isDarkMode))
             else this.isDarkMode = JSON.parse(hasValue)
-        }
+        },
     },
     mounted() {
         this.storageDarkMode()
