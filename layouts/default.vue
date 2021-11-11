@@ -60,28 +60,4 @@ export default {
 .main-content {
     @apply w-full text-black dark:text-white dark:bg-black transition-all duration-300;
 }
-
-.custom-scrollbar {
-    scrollbar-width: thin;
-    // Scroll bar style
-    /* width */
-    &::-webkit-scrollbar {
-        width: 6px;
-    }
-
-    /* Track */
-    &::-webkit-scrollbar-track {
-        background: transparent;
-    }
-
-    /* Handle */
-    &::-webkit-scrollbar-thumb {
-        @apply bg-green-800 rounded;
-    }
-
-    /* Handle on hover */
-    &::-webkit-scrollbar-thumb:hover {
-        @apply bg-green-900;
-    }
-}
 </style>

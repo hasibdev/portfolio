@@ -8,7 +8,7 @@
 
         <div class="md:flex mt-10">
             <!-- Left Column -->
-            <div class="md:w-7/12 pr-8 ">
+            <div class="md:w-7/12 pr-8 mt-8">
                 <p class="mb-4">Starting web development on the frontend using modern frameworks like (ReactJS and VueJS) I also became more and more of a Backend developer with (NOdeJS and Laravel) frameworks. I love both worlds nowadays!</p>
                 <p>Want to know how I may help your project? Check out my project <nuxt-link class="text-primary" to="/portfolio">portfolio</nuxt-link> and online <nuxt-link class="text-primary" to="/resume">resume</nuxt-link>.</p>
 
@@ -18,7 +18,7 @@
                 </div>
             </div>
             <!-- Right Colomn -->
-            <div class="md:w-5/12 p-2 my-10 md:mt-0">
+            <div class="md:w-5/12 p-2 my-10 md:my-0">
                 <img src="/images/processed.jpeg" alt="Hasibur Rahman">
             </div>
         </div>
