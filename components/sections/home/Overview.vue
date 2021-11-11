@@ -4,7 +4,7 @@
         <p class="mt-4">I have more than 5 year's experience building website for clients all over the world. <br> Below is a quick overview of my main technical skill sets and technologies I use.</p>
 
         <div class="mt-10">
-            <div class="grid lg:grid-cols-4 md:grid-cols-2 gap-6">
+            <div class="grid  xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 gap-6">
                 <!-- Vanilla JavaScript -->
                 <div class="">
                     <js-icon class="text-3xl text-yellow-300"></js-icon>

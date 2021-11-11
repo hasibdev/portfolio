@@ -9,7 +9,7 @@
         <div class="md:flex mt-10">
             <!-- Left Column -->
             <div class="md:w-7/12 pr-8 mt-8">
-                <p class="mb-4">Starting web development on the frontend using modern frameworks like (ReactJS and VueJS) I also became more and more of a Backend developer with (NOdeJS and Laravel) frameworks. I love both worlds nowadays!</p>
+                <p class="mb-4">Starting web development on the frontend using modern frameworks like (ReactJS and VueJS) I also became more and more of a Backend developer with (Node JS and Laravel) frameworks. I love both worlds nowadays!</p>
                 <p>Want to know how I may help your project? Check out my project <nuxt-link class="text-primary" to="/portfolio">portfolio</nuxt-link> and online <nuxt-link class="text-primary" to="/resume">resume</nuxt-link>.</p>
 
                 <div class="mt-20">
