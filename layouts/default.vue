@@ -9,8 +9,8 @@
             <!-- Main Content -->
             <main class="main-content overflow-y-auto custom-scrollbar">
                 <!-- Mobile Header -->
-                <div class="lg:hidden py-4 px-6 bg-primary dark:bg-navy flex items-center">
-                    <button @click="isSidebarOpen = true" class="p-2">
+                <div class="lg:hidden py-3 px-6 bg-primary dark:bg-navy flex items-center text-white">
+                    <button @click="isSidebarOpen = true" class="p-2 ml-2 bg-gray-100 bg-opacity-10 rounded-full">
                         <menu-icon></menu-icon>
                     </button>
                     <h1 class="text-center text-2xl flex-grow ">Hasibur Rahman</h1>

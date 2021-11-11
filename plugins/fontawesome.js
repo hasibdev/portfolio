@@ -1,7 +1,7 @@
 import Vue from 'vue'
 
 import { library } from '@fortawesome/fontawesome-svg-core'
-import { faUser, faLaptopCode, faBriefcase, faFileAlt, faBlog, faEnvelope, faAdjust } from '@fortawesome/free-solid-svg-icons'
+import { faUser, faLaptopCode, faBriefcase, faFileAlt, faBlog, faEnvelope, faAdjust, faArrowCircleRight } from '@fortawesome/free-solid-svg-icons'
 import { faTwitter, faFacebookF, faGithubAlt, faStackOverflow } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
@@ -17,7 +17,8 @@ library.add(
     faFileAlt,
     faBlog,
     faEnvelope,
-    faAdjust
+    faAdjust,
+    faArrowCircleRight
 )
 
 // Crate font-awesome-icon component

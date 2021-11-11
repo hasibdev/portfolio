@@ -13,8 +13,12 @@
                 <p>Want to know how I may help your project? Check out my project <nuxt-link class="text-primary" to="/portfolio">portfolio</nuxt-link> and online <nuxt-link class="text-primary" to="/resume">resume</nuxt-link>.</p>
 
                 <div class="mt-20">
-                    <nuxt-link class="px-8 py-3 rounded my-1 inline-block text-white bg-primary hover:bg-primary-dark transition-colors duration-300" to="/portfolio">View Portfolio</nuxt-link>
-                    <nuxt-link class="px-8 py-3 rounded my-1 inline-block text-white bg-gray-700 hover:bg-gray-800 transition-colors duration-300" to="/resume">View Resume</nuxt-link>
+                    <nuxt-link class="px-5 py-2 rounded my-1 inline-block text-white bg-primary hover:bg-primary-dark transition-colors duration-300" to="/portfolio">
+                        <font-awesome-icon class="mr-2" :icon="['fas', 'arrow-circle-right']"></font-awesome-icon> View Portfolio
+                    </nuxt-link>
+                    <nuxt-link class="px-5 py-2 rounded my-1 inline-block text-white bg-gray-700 hover:bg-gray-800 transition-colors duration-300" to="/resume">
+                        <font-awesome-icon class="mr-2" :icon="['fas', 'file-alt']"></font-awesome-icon> View Resume
+                    </nuxt-link>
                 </div>
             </div>
             <!-- Right Colomn -->
