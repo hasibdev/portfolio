@@ -17,6 +17,11 @@
                 </div>
 
                 <Nuxt />
+
+                <!-- Footer -->
+                <footer class="p-6">
+                    <p class="text-center"> Template Copyright © <span class="text-primary">3rd Wave Media</span> </p>
+                </footer>
             </main>
         </div>
     </client-only>
