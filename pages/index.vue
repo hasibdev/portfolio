@@ -14,6 +14,12 @@
 
         <!-- Featured Projects -->
         <featured-projects></featured-projects>
+
+        <!-- Divider -->
+        <div class="border-b border-gray-400 w-11/12 mx-auto"></div>
+
+        <!-- Testimonials -->
+        <testimonials></testimonials>
     </div>
 </template>
 
@@ -21,13 +27,15 @@
 import AboutSection from '@/components/sections/home/About.vue'
 import OverviewSection from '@/components/sections/home/Overview.vue'
 import FeaturedProjects from '@/components/sections/home/FeaturedProjects.vue'
+import Testimonials from '@/components/sections/home/Testimonials.vue'
 
 
 export default {
     components: {
         AboutSection,
         OverviewSection,
-        FeaturedProjects
+        FeaturedProjects,
+        Testimonials
     },
 }
 </script>
