@@ -9,7 +9,8 @@ module.exports = {
         navy: '#1e2a3a',
         black: '#111821',
         primary: '#059669',
-        'primary-dark': '#065F46'
+        'primary-dark': '#065F46',
+        'gray-10': '#fafafa'
       }
     },
 
