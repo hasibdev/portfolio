@@ -11,7 +11,8 @@ import {
     faAdjust,
     faArrowCircleRight,
     faEye,
-    faQuoteLeft
+    faQuoteLeft,
+    faLongArrowAltRight
 } from '@fortawesome/free-solid-svg-icons'
 import { faTwitter, faFacebookF, faGithubAlt, faStackOverflow } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
@@ -31,7 +32,8 @@ library.add(
     faAdjust,
     faArrowCircleRight,
     faEye,
-    faQuoteLeft
+    faQuoteLeft,
+    faLongArrowAltRight
 )
 
 // Crate font-awesome-icon component
