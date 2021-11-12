@@ -74,6 +74,12 @@
                 </div>
 
             </div>
+
+            <div class="flex justify-center mt-14">
+                <nuxt-link class="px-5 py-2 rounded inline-block text-white bg-primary hover:bg-primary-dark transition-colors duration-300" to="/portfolio">
+                    <font-awesome-icon class="mr-2" :icon="['fas', 'arrow-circle-right']"></font-awesome-icon> View Portfolio
+                </nuxt-link>
+            </div>
         </div>
     </section>
 </template>
