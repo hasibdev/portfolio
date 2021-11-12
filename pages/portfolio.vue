@@ -42,6 +42,7 @@
 // import isotope from 'vueisotope'
 
 export default {
+    // scrollToTop: true,
     // components: {
     //     isotope,
     // },

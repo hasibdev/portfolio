@@ -38,6 +38,7 @@ import LatestBlog from '@/components/sections/home/LatestBlog.vue'
 
 
 export default {
+    // scrollToTop: true,
     components: {
         AboutSection,
         OverviewSection,
