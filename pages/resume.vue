@@ -89,7 +89,7 @@
                     </div>
 
                     <!-- Right -->
-                    <div class="lg:w-3/12 lg:pl-8 lg:ml-8 lg:border-l">
+                    <div class="lg:w-3/12 lg:pl-8 lg:ml-8 lg:border-l mt-8 lg:mt-0">
                         <h3 class="text-xl border-l-4 pl-4 border-primary text-primary">Skills</h3>
 
                         <h4 class="text-lg font-bold mt-5 mb-2">Technical</h4>
