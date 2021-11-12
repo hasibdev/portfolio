@@ -57,6 +57,11 @@ export default {
     mounted() {
         this.storageDarkMode()
     },
+    watch: {
+        $route(to, from) {
+            this.isSidebarOpen = false
+        }
+    },
 }
 </script>
 
