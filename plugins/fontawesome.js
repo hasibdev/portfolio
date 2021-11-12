@@ -20,8 +20,18 @@ import {
     faEnvelopeSquare,
     faGlobe,
     faMapMarkerAlt
-} from '@fortawesome/free-solid-svg-icons'
-import { faTwitter, faFacebookF, faGithubAlt, faStackOverflow } from '@fortawesome/free-brands-svg-icons'
+}
+    from '@fortawesome/free-solid-svg-icons'
+
+import {
+    faTwitter,
+    faFacebookF,
+    faGithubAlt,
+    faStackOverflow,
+    faGithubSquare,
+    faFacebookSquare,
+    faTwitterSquare
+} from '@fortawesome/free-brands-svg-icons'
 
 // Init Icon to libreary
 library.add(
@@ -45,7 +55,10 @@ library.add(
     faPhoneSquare,
     faEnvelopeSquare,
     faGlobe,
-    faMapMarkerAlt
+    faMapMarkerAlt,
+    faGithubSquare,
+    faFacebookSquare,
+    faTwitterSquare
 )
 
 // Crate font-awesome-icon component
