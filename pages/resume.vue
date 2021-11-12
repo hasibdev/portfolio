@@ -1,6 +1,6 @@
 <template>
     <div>
-        <div class="text-center p-14 bg-gray-10 dark:bg-black">
+        <div class="text-center p-10 bg-gray-10 dark:bg-black">
             <h2 class="text-2xl mb-6">Online Resume</h2>
             <nuxt-link class="px-5 py-2 rounded my-1 inline-block text-white bg-primary hover:bg-primary-dark transition-colors duration-300" to="/portfolio">
                 <font-awesome-icon class="mr-2" :icon="['fas', 'file-pdf']"></font-awesome-icon> Download PDF

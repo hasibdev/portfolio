@@ -1,7 +1,7 @@
 <template>
     <div>
         <!-- Header -->
-        <div class="text-center p-14 bg-gray-10 dark:bg-gray-800">
+        <div class="text-center p-10 bg-gray-10 dark:bg-gray-800">
             <h2 class="text-3xl">A Blog About Software Development And Life</h2>
             <p class="mt-1">Welcome to my blog. Subscribe and get my latest blog post in your inbox.</p>
 
