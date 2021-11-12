@@ -44,7 +44,7 @@
                         <img class="rounded-full w-36 mx-auto" src="/images/me-croped.jpg" alt="">
                     </div>
                     <p class="md:w-4/5 pl-4 mt-4 md:mt-0">
-                        Summarise your career here. You can make a PDF version of your resume using our free Sketch template here. Donec quam felis, ultricies nec, pellentesque eu. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh.
+                        Starting out at the age of 17 I never stopped learning new programming skills and languages. Early I started creating websites for curiosity and just for fun as well. And then I became a good web designer with HTML, CSS, and jQuery (jQuery was a hero!). Besides Front-end development, I also explored Backend and other non-web-only technologies. This passion has since lasted and led to my decision to work as a freelance web developer. The success and fun I have in this job are immense and really keep that passion burningly alive.
                     </p>
                 </div>
 
@@ -58,7 +58,8 @@
                         <h3 class="text-xl border-l-4 pl-6 border-primary text-primary">Work Experiences</h3>
 
                         <h4 class="text-lg font-bold mt-5 mb-2">Front-end Developer</h4>
-                        <p>Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Donec pede justo, fringilla vel. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis.</p>
+                        <p>Starting web development on the frontend using modern frameworks like (ReactJS and VueJS) I also became more and more of a Backend developer with (Node JS and Laravel) frameworks. I love both worlds nowadays!</p>
+                        <p>Want to know how I may help your project? Check out my project <nuxt-link class="text-primary" to="/portfolio">portfolio</nuxt-link> and online <nuxt-link class="text-primary" to="/resume">resume</nuxt-link>.</p>
 
                         <ul class="list-disc pl-8 mt-4">
                             <li>List Item One</li>
@@ -67,7 +68,8 @@
                         </ul>
 
                         <h4 class="text-lg font-bold mt-5 mb-2">Front-end Developer</h4>
-                        <p>Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Donec pede justo, fringilla vel. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis.</p>
+                        <p>Starting web development on the frontend using modern frameworks like (ReactJS and VueJS) I also became more and more of a Backend developer with (Node JS and Laravel) frameworks. I love both worlds nowadays!</p>
+                        <p>Want to know how I may help your project? Check out my project <nuxt-link class="text-primary" to="/portfolio">portfolio</nuxt-link> and online <nuxt-link class="text-primary" to="/resume">resume</nuxt-link>.</p>
 
                         <ul class="list-disc pl-8 mt-4">
                             <li>List Item One</li>
@@ -94,10 +96,10 @@
 
                         <h4 class="text-lg font-bold mt-5 mb-2">Technical</h4>
                         <ul>
-                            <li>JavaScript/Angular/React/Vue</li>
-                            <li>Python/Ruby/PHP</li>
-                            <li>Node.js/ASP.NET</li>
-                            <li>PostgreSQL/MySQL</li>
+                            <li>JavaScript/React/Vue</li>
+                            <li>Node.js</li>
+                            <li>PHP/Laravel</li>
+                            <li>MySQL/PostgreSQL</li>
                             <li>Object-oriented design</li>
                             <li>Design and implement database structures</li>
                             <li>Lead and deliver complex software systems</li>
@@ -115,13 +117,13 @@
                         <h3 class="text-xl border-l-4 pl-4 border-primary text-primary mt-8">Education</h3>
                         <div class="mt-3">
                             <p>MSc in Computer Science</p>
-                            <p class="text-gray-600">University College London</p>
-                            <p class="text-gray-500 text-xs">2010 - 2011</p>
+                            <p class="text-gray-600">University College Dhaka</p>
+                            <p class="text-gray-500 text-xs">2020 - 2021</p>
                         </div>
                         <div class="mt-3">
                             <p>BSc Maths and Physics</p>
-                            <p class="text-gray-600">Imperial College London</p>
-                            <p class="text-gray-500 text-xs">2010 - 2011</p>
+                            <p class="text-gray-600">Imperial College Dhaka</p>
+                            <p class="text-gray-500 text-xs">2015 - 2019</p>
                         </div>
 
                         <!-- Languages -->
