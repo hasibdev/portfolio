@@ -1,7 +1,7 @@
 <template>
     <header id="sidebar_header" class="lg:relative lg:translate-x-0 absolute transform custom-scrollbar" :class="{'-translate-x-full' : !isSidebarOpen}">
         <div class="">
-            <h3 class="text-2xl text-center mt-2 mb-6 font-bold">Hasibur Rahman</h3>
+            <h3 class="text-2xl text-center mt-2 mb-6 font-bold tracking-wide">Hasib</h3>
             <!-- Image -->
             <div class="rounded-full overflow-hidden w-36 h-36 mx-auto">
                 <img src="/images/fb-me.jpg" alt="Hasibur Rahman">
@@ -46,12 +46,12 @@
                 </span>
                 <span class="text-md font-semibold">Portfolio</span>
             </nuxt-link>
-            <nuxt-link to="/services" class="p-1 mb-1 hover:text-primary-dark transition-colors duration-300">
+            <!-- <nuxt-link to="/services" class="p-1 mb-1 hover:text-primary-dark transition-colors duration-300">
                 <span class="inline-block w-8 text-center">
                     <font-awesome-icon :icon="['fas', 'briefcase']"></font-awesome-icon>
                 </span>
                 <span class="text-md font-semibold">Services &amp; Pricing</span>
-            </nuxt-link>
+            </nuxt-link> -->
             <nuxt-link to="/resume" class="p-1 mb-1 hover:text-primary-dark transition-colors duration-300">
                 <span class="inline-block w-8 text-center">
                     <font-awesome-icon :icon="['fas', 'file-alt']"></font-awesome-icon>
