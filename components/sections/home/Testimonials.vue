@@ -5,7 +5,11 @@
         <div class="mt-10">
             <VueSlickCarousel v-bind="sliderConfig">
                 <div v-for="item in 6" :key="item">
-                    <div class=" text-black bg-gray-10 dark:text-white dark:bg-gray-800 p-4 mx-2">
+                    <div class="relative overflow-hidden text-black bg-gray-10 dark:text-white dark:bg-gray-800 px-8 py-10 mx-2 transition-colors duration-300">
+                        <div class="slide-quote-icon">
+                            <font-awesome-icon :icon="['fas', 'quote-left']"></font-awesome-icon>
+                        </div>
+
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus cum quisquam, debitis ut omnis facere inventore magni ipsam. Exercitationem, cum.</p>
 
                         <!-- Author -->
@@ -53,4 +57,14 @@ export default {
 </script>
 
 <style lang="scss">
+.slide-quote-icon {
+    @apply absolute bg-primary flex justify-end items-center;
+    top: -35px;
+    left: -10px;
+    padding: 38px 7px 51px 15px;
+    transform: rotate(45deg);
+    > * {
+        transform: rotate(-45deg);
+    }
+}
 </style>
