@@ -7,14 +7,20 @@
                 <div v-for="item in 6" :key="item">
                     <div class="relative overflow-hidden text-black bg-gray-10 dark:text-white dark:bg-gray-800 px-8 py-10 mx-2 transition-colors duration-300">
                         <div class="slide-quote-icon">
-                            <font-awesome-icon :icon="['fas', 'quote-left']"></font-awesome-icon>
+                            <font-awesome-icon :icon="['fas', 'quote-left']" class="text-gray-50"></font-awesome-icon>
                         </div>
 
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus cum quisquam, debitis ut omnis facere inventore magni ipsam. Exercitationem, cum.</p>
 
                         <!-- Author -->
-                        <div>
-                            James Lee
+                        <div class="flex items-center mt-10">
+                            <div class="w-16">
+                                <img src="/images/profile-4.png" alt="">
+                            </div>
+                            <div class="ml-6">
+                                <p>James Lee</p>
+                                <p> Project Manager, <br> Google</p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -57,14 +63,20 @@ export default {
 </script>
 
 <style lang="scss">
-.slide-quote-icon {
-    @apply absolute bg-primary flex justify-end items-center;
-    top: -35px;
-    left: -10px;
-    padding: 38px 7px 51px 15px;
-    transform: rotate(45deg);
-    > * {
-        transform: rotate(-45deg);
+.testimonials-slider {
+    .slide-quote-icon {
+        @apply absolute bg-primary flex justify-end items-center;
+        top: -35px;
+        left: -10px;
+        padding: 38px 7px 51px 15px;
+        transform: rotate(45deg);
+        > * {
+            transform: rotate(-45deg);
+        }
+    }
+
+    .slick-dots {
+        bottom: -55px;
     }
 }
 </style>
