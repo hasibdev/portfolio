@@ -9,7 +9,7 @@
                 <div class="">
                     <js-icon class="text-3xl text-yellow-300"></js-icon>
                     <h4 class="text-lg my-3 font-semibold">JavaScript</h4>
-                    <p>List skills/technologies here. You can change the icon above to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
+                    <p>JavaScript is my first choice. I know JavaScript more than any other programming language. And I love JavaScript because JavaScript is everywhere. We can make both frontend and backend in one language. And also native-like mobile apps. Not only that, with the help of Node.js we can even use JS into IoT devices like raspberry pi or Arduino. </p>
                 </div>
                 <!-- React, Vue -->
                 <div class="">
