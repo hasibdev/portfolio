@@ -9,7 +9,7 @@
                 <div class="">
                     <js-icon class="text-3xl text-yellow-300"></js-icon>
                     <h4 class="text-lg my-3 font-semibold">JavaScript</h4>
-                    <p>JavaScript is my first choice. I know JavaScript more than any other programming language. And I love JavaScript because JavaScript is everywhere. We can make both frontend and backend in one language. And also native-like mobile apps. Not only that, with the help of Node.js we can even use JS into IoT devices like raspberry pi or Arduino. </p>
+                    <p>JavaScript is my first choice. I know JavaScript more than any other programming language. And I love JavaScript because JavaScript is everywhere. We can make both frontend and backend in one language. And also native-like mobile apps. Not only that, with the help of Node.js we can even use JS into IoT devices like Raspberry pi or Arduino. </p>
                 </div>
                 <!-- React, Vue -->
                 <div class="">
@@ -17,13 +17,13 @@
                     <vue-icon class="text-3xl c-vue ml-1"></vue-icon>
 
                     <h4 class="text-lg my-3 font-semibold">React &amp; Vue</h4>
-                    <p>List skills/technologies here. You can change the icon above to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
+                    <p>To be honest, I like Vue.js over React because of the way it separates the logic in a component and is also very easy to manage global state. However, React was the first front-end framework I learned. But, I love both of those including jQuery.</p>
                 </div>
                 <!-- Node JS -->
                 <div class="">
                     <node-icon class="text-3xl c-node"></node-icon>
                     <h4 class="text-lg my-3 font-semibold">Node JS</h4>
-                    <p>List skills/technologies here. You can change the icon above to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
+                    <p>Now, this is the point where Javascript achieves superpower. We can build both frontend and backend in a single language. And also can be installed in some of the popular IoT devices like Raspberry Pi or Arduino. Emagine One day we will program Javascript code in robotics.</p>
                 </div>
                 <!-- Npm, Webpack -->
                 <div class="">
@@ -33,7 +33,7 @@
                         <gulp-icon class="text-3xl c-gulp"></gulp-icon>
                     </div>
                     <h4 class="text-lg my-3 font-semibold">Npm, Webpack &amp; Gulp</h4>
-                    <p>List skills/technologies here. You can change the icon above to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
+                    <p>The package manager for Node JS is very good. And Webpack and Gulp is the most popular JavaScript bundler now a day. Both have very different and manageable ways to build production-ready and also developer-friendly workflow.</p>
                 </div>
                 <!-- PHP Laravel -->
                 <div class="">
@@ -42,7 +42,7 @@
                         <laravel-icon class="text-3xl c-laravel ml-3"></laravel-icon>
                     </div>
                     <h4 class="text-lg my-3 font-semibold">PHP &amp; Laravel</h4>
-                    <p>List skills/technologies here. You can change the icon above to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
+                    <p></p>
                 </div>
                 <!-- HTML, CSS -->
                 <div class="">
