@@ -42,7 +42,7 @@
                         <laravel-icon class="text-3xl c-laravel ml-3"></laravel-icon>
                     </div>
                     <h4 class="text-lg my-3 font-semibold">PHP &amp; Laravel</h4>
-                    <p></p>
+                    <p>Besides frontend design and development I also explored the backend. But, first I learned the way Node.js server works. The MVC design pattern authentication and authorization system. Connecting and managing Database Etc. Then I switched to PHP Laravel framework and fallen in love with it. </p>
                 </div>
                 <!-- HTML, CSS -->
                 <div class="">
@@ -52,19 +52,21 @@
                         <scss-icon class="text-3xl c-scss"></scss-icon>
                     </div>
                     <h4 class="text-lg my-3 font-semibold">HTML, CSS &amp; SCSS</h4>
-                    <p>List skills/technologies here. You can change the icon above to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
+                    <p>HTML and CSS are essential for web design and development. I have very strong understanding of html, css and
+                        SCSS preprocessor, flexbox, gridlayout and animation as well. In real product application We mostly use Bootstrap CSS or Tailwind CSS.</p>
                 </div>
                 <!-- Flutter -->
                 <div class="">
                     <flutter-icon></flutter-icon>
-                    <h4 class="text-lg my-3 font-semibold">Dart &amp; Flutter</h4>
-                    <p>List skills/technologies here. You can change the icon above to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
+                    <h4 class="text-lg my-3 font-semibold">Mobile Apps</h4>
+                    <p>I'm a front-end developer first, so I also explore some of the famous mobile app frameworks like Ionic, React Native and Flutter. I personally like Flutter. </p>
                 </div>
                 <!-- Python -->
                 <div class="">
-                    <python-icon class="text-3xl c-python"></python-icon>
-                    <h4 class="text-lg my-3 font-semibold">Python &amp; Django</h4>
-                    <p>List skills/technologies here. You can change the icon above to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
+                    <!-- <python-icon class="text-3xl c-python"></python-icon> -->
+                    <font-awesome-icon class="text-4xl text-red-500" :icon="['fab', 'git-alt']"></font-awesome-icon>
+                    <h4 class="text-lg my-3 font-semibold">Git, Github &amp; Gitlab</h4>
+                    <p>I always use Git version control to manage and deploy my application. And also I have pretty good experience with Github, Gitlab and Bitbucket.</p>
                 </div>
             </div>
         </div>

@@ -30,7 +30,8 @@ import {
     faStackOverflow,
     faGithubSquare,
     faFacebookSquare,
-    faTwitterSquare
+    faTwitterSquare,
+    faGitAlt
 } from '@fortawesome/free-brands-svg-icons'
 
 // Init Icon to libreary
@@ -58,7 +59,8 @@ library.add(
     faMapMarkerAlt,
     faGithubSquare,
     faFacebookSquare,
-    faTwitterSquare
+    faTwitterSquare,
+    faGitAlt
 )
 
 // Crate font-awesome-icon component
