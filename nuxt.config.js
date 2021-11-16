@@ -28,6 +28,7 @@ export default {
   plugins: [
     { src: '~/plugins/components.js', mode: 'client' },
     { src: '~/plugins/fontawesome.js', mode: 'client' },
+    { src: '~/plugins/vue-html2pdf.js', mode: 'client' },
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
