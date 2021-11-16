@@ -15,7 +15,7 @@
                 <div class="sm:flex justify-between">
                     <div>
                         <h2 class="text-3xl font-bold tracking-widest text-primary">Hasibur Rahman</h2>
-                        <p class="font-thin text-lg mt-1">Senior Front-end Developer</p>
+                        <p class="font-thin text-lg mt-1">Full-stack web developer</p>
                     </div>
                     <div>
                         <ul class="sm:border-l sm:pl-6 sm:mt-0 mt-6 text-gray-600">
@@ -57,37 +57,38 @@
                     <div class="lg:w-9/12">
                         <h3 class="text-xl border-l-4 pl-6 border-primary text-primary">Work Experiences</h3>
 
-                        <h4 class="text-lg font-bold mt-5 mb-2">Front-end Developer</h4>
-                        <p>Starting web development on the frontend using modern frameworks like (ReactJS and VueJS) I also became more and more of a Backend developer with (Node JS and Laravel) frameworks. I love both worlds nowadays!</p>
-                        <p>Want to know how I may help your project? Check out my project <nuxt-link class="text-primary" to="/portfolio">portfolio</nuxt-link> and online <nuxt-link class="text-primary" to="/resume">resume</nuxt-link>.</p>
-
+                        <h4 class="text-lg font-bold mt-5">Full-stack web developer</h4>
+                        <h6 class="font-thin mb-2">At - <a href="https://999itsolution.com" target="_blank" rel="noopener noreferrer">999 It Solutions</a></h6>
+                        <p>I have been working with 999 It Solutions for more than two year. And I learned lots of things from them. Some of them are, how to work professionally, team management, and better coding structure. Primarily they uses Laravel for their backend and Vue JS for the front-end development.</p>
+                        <p>Some of the project I'have done with this team.</p>
                         <ul class="list-disc pl-8 mt-4">
-                            <li>List Item One</li>
-                            <li>Example List Item Two</li>
-                            <li>Text List Item Lorem</li>
+                            <li>Sozashop - (Inventory)</li>
+                            <li>OutChimp - (Marketplace)</li>
+                            <li>Wrapmotif - (Car wrapping company)</li>
                         </ul>
 
-                        <h4 class="text-lg font-bold mt-5 mb-2">Front-end Developer</h4>
-                        <p>Starting web development on the frontend using modern frameworks like (ReactJS and VueJS) I also became more and more of a Backend developer with (Node JS and Laravel) frameworks. I love both worlds nowadays!</p>
-                        <p>Want to know how I may help your project? Check out my project <nuxt-link class="text-primary" to="/portfolio">portfolio</nuxt-link> and online <nuxt-link class="text-primary" to="/resume">resume</nuxt-link>.</p>
-
+                        <h4 class="text-lg font-bold mt-5">Front-end Developer</h4>
+                        <h6 class="font-thin mb-2">At - Coder Eyes</h6>
+                        <p></p>
+                        <p>This is a very small team where I worked as a front-end developer. That was my first real-life working experience. They make templates for WordPress and some other CMS management systems.</p>
+                        <p>Some of the project I'have done with this team.</p>
                         <ul class="list-disc pl-8 mt-4">
-                            <li>List Item One</li>
-                            <li>Example List Item Two</li>
-                            <li>Text List Item Lorem</li>
+                            <li>Hexa Blog - (Blog template)</li>
+                            <li>Contra - (Business template)</li>
+                            <li>Agentur - (Personal website)</li>
                         </ul>
 
                         <!-- Projects -->
                         <h3 class="text-xl border-l-4 pl-6 border-primary text-primary mt-10">Projects</h3>
 
-                        <h4 class="text-lg font-bold mt-5 mb-2">Project Lorem Ipsum</h4>
-                        <p>You can use this section for your side projects. You can provide a project link here as well. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                        <h4 class="text-lg font-bold mt-5 mb-2">Sozashop - (Inventory)</h4>
+                        <p>This is an Inventory management application. Our team uses Laravel API for backend and Nuxt JS to manage front-end. This is the most complecated project I'have ever done. I enjoyed and learnd lots of thinks from this project.</p>
 
-                        <h4 class="text-lg font-bold mt-5 mb-2">Project Sed Fringilla</h4>
-                        <p>You can use this section for your side projects. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.</p>
+                        <h4 class="text-lg font-bold mt-5 mb-2">OutChimp - (Marketplace)</h4>
+                        <p>This is similar to an online marketplace where a buyer can post their job offer and user can apply for the job. Our team uses Laravel API for backend and Nuxt JS to manage front-end. Here I learned how a marketplace actually works and manage multiple authenticated user.</p>
 
-                        <h4 class="text-lg font-bold mt-5 mb-2">Project Sed Fringilla</h4>
-                        <p>You can use this section for your side projects. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.</p>
+                        <h4 class="text-lg font-bold mt-5 mb-2">Wrapmotif - (Car wrapping company)</h4>
+                        <p>This project was made for a company who wants to grow their company and satisfy their clients. This project made with Laravel jetstream for backend admin panel Nuxt JS to manage front-end.</p>
                     </div>
 
                     <!-- Right -->
@@ -96,13 +97,14 @@
 
                         <h4 class="text-lg font-bold mt-5 mb-2">Technical</h4>
                         <ul>
-                            <li>JavaScript/React/Vue</li>
+                            <li>JavaScript</li>
+                            <li>React/Vue</li>
                             <li>Node.js</li>
                             <li>PHP/Laravel</li>
                             <li>MySQL/PostgreSQL</li>
                             <li>Object-oriented design</li>
-                            <li>Design and implement database structures</li>
-                            <li>Lead and deliver complex software systems</li>
+                            <li>Git, Github and Gitlab</li>
+                            <li>Dart/Flutter</li>
                         </ul>
 
                         <h4 class="text-lg font-bold mt-5 mb-2">Professional</h4>
@@ -116,14 +118,14 @@
                         <!-- Education -->
                         <h3 class="text-xl border-l-4 pl-4 border-primary text-primary mt-8">Education</h3>
                         <div class="mt-3">
-                            <p>MSc in Computer Science</p>
-                            <p class="text-gray-600">University College Dhaka</p>
-                            <p class="text-gray-500 text-xs">2020 - 2021</p>
+                            <p>HSC in Computer Operation</p>
+                            <p class="text-gray-600">Abujar Giffahri University College.</p>
+                            <p class="text-gray-500 text-xs">2017 - 2018</p>
                         </div>
                         <div class="mt-3">
-                            <p>BSc Maths and Physics</p>
-                            <p class="text-gray-600">Imperial College Dhaka</p>
-                            <p class="text-gray-500 text-xs">2015 - 2019</p>
+                            <p>SSC in Electrical</p>
+                            <p class="text-gray-600">Sherpur Technical school & College.</p>
+                            <p class="text-gray-500 text-xs">2015 - 2016</p>
                         </div>
 
                         <!-- Languages -->
