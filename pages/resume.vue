@@ -2,9 +2,9 @@
     <div>
         <div class="text-center p-10 bg-gray-10 dark:bg-black">
             <h2 class="text-2xl mb-6">Online Resume</h2>
-            <button @click="downloadResume" class="px-5 py-2 rounded my-1 inline-block text-white bg-primary hover:bg-primary-dark transition-colors duration-300">
+            <a href="/Hasibur-Rahman-cv.pdf" target="_blank" @click="downloadResume" class="px-5 py-2 rounded my-1 inline-block text-white bg-primary hover:bg-primary-dark transition-colors duration-300">
                 <font-awesome-icon class="mr-2" :icon="['fas', 'file-pdf']"></font-awesome-icon> Download PDF
-            </button>
+            </a>
         </div>
 
         <!-- Resume -->
