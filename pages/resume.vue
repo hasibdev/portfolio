@@ -48,6 +48,7 @@
                                     <img class="rounded-full w-36 mx-auto" src="/images/me-croped.jpg" alt="">
                                 </div>
                                 <p class="md:w-4/5 pl-4 mt-4 md:mt-0">
+                                    I am a professional full-stack web developer since 2018. I can design and develop any type of website, web-based application using PHP Laravel framework and Vue Js. <br>
                                     Starting out at the age of 17 I never stopped learning new programming skills and languages. Early I started creating websites for curiosity and just for fun as well. And then I became a good web designer with HTML, CSS, and jQuery (jQuery was a hero!). Besides Front-end development, I also explored Backend and other non-web-only technologies. This passion has since lasted and led to my decision to work as a freelance web developer. The success and fun I have in this job are immense and really keep that passion burningly alive.
                                 </p>
                             </div>
