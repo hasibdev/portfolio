@@ -4,7 +4,7 @@
         <div class="p-10 bg-gray-10 dark:bg-gray-800">
             <div class="text-center">
                 <h2 class="text-3xl">Contact</h2>
-                <p class="my-3">Interested in hiring me for your project or just want to say hi? You can fill in the contact form below <br> or send me an email to simon.doe@yourwebsite.com</p>
+                <p class="my-3">Interested in hiring me for your project or just want to say hi? You can fill in the contact form below <br> or send me an email to hasib.active@gmail.com</p>
 
                 <p>Want to get connected? Follow me on the social channels below.</p>
             </div>
