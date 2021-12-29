@@ -35,7 +35,7 @@
 
                     <!-- Overlay -->
                     <div class="opacity-0 group-hover:opacity-100 transition-opacity duration-300 absolute w-full h-full left-0 top-0 bg-gray-50 bg-opacity-70 flex justify-center items-center">
-                        <a href="https://bdlancers.ahmedshakil.com/" target="_blank" class="px-5 py-2 rounded my-1 inline-block text-white bg-gray-700 hover:bg-gray-800  transition-colors duration-300">
+                        <a href="https://outchimp.com" target="_blank" class="px-5 py-2 rounded my-1 inline-block text-white bg-gray-700 hover:bg-gray-800  transition-colors duration-300">
                             <font-awesome-icon class="mr-2" :icon="['fas', 'eye']"></font-awesome-icon> Visit Site
                         </a>
                     </div>
