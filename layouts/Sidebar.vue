@@ -8,7 +8,7 @@
             </div>
             <!-- Bio -->
             <!-- <p class="text-center mt-6 ">I'm a web developer specialised in frontend for complex scalable web apps. And also I have a very good understanding of backend technologies as well.</p> -->
-            <p class="text-center mt-6 ">I am a professional full-stack web developer since 2018. I can design and develop any type of website, web-based application using PHP Laravel framework and Vue Js.</p>
+            <p class="text-center mt-6 ">I am a professional full-stack web developer since 2018. I can design and develop any type of website, web-based application using backend Node JS and frontend VueJS or ReactJS.</p>
 
             <!-- Social Icons -->
             <div class="flex justify-center items-center my-4">
