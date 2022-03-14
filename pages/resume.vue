@@ -71,7 +71,7 @@
                      <ul class="list-disc pl-8 mt-4">
                         <li><a href="https://admin-restaurant-spa.hasib.dev" target="_blank" rel="noopener noreferrer">Restaurant Adnim</a> - (Dashboard)</li>
                         <li><a href="https://restaurant-spa.hasib.dev" target="_blank" rel="noopener noreferrer">Restaurant</a> - (Website)</li>
-                        <li><a href="https://ecommerce-app.hasib.dev" target="_blank" rel="noopener noreferrer">Ecommece App</a> - (Hybrid mobile App)</li>
+                        <li><a href="https://galaxy-app.hasib.dev" target="_blank" rel="noopener noreferrer">Galaxy Ecommece</a> - (Hybrid mobile App)</li>
                      </ul>
 
                      <!-- 999 It solutions -->
