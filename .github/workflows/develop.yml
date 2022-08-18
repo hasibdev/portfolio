@@ -9,7 +9,7 @@ defaults:
     working-directory: /var/www/portfolio_dev
 
 jobs:
-  build:
+  develop:
     runs-on: self-hosted
 
     strategy:
@@ -26,7 +26,10 @@ jobs:
       - name: "Run Commands"
         run: |
           pwd
+          git checkout dev
           git branch
           node -v
-          yarn
-          yarn build
+      - name: "Install Dependencies"
+        run: yarn
+      - name: "Build for production"
+        run: yarn build
