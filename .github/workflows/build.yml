@@ -19,14 +19,13 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - name: Use Node.js ${{ matrix.node-version }}
-        # uses: actions/setup-node@v3
-        # with:
-        # node-version: ${{ matrix.node-version }}
+        uses: actions/setup-node@v3
+        with:
+        node-version: ${{ matrix.node-version }}
         # cache: 'npm'
         run: |
           pwd
           git branch
-          nvm use 16
           yarn
           yarn build
       # - run: pwd
