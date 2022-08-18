@@ -28,5 +28,7 @@ jobs:
           pwd
           git branch
           node -v
-          yarn
-          yarn build
+      - name: "Install Dependencies"
+        run: yarn
+      - name: "Build for production"
+        run: yarn build
