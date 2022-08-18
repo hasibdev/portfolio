@@ -9,7 +9,7 @@ defaults:
     working-directory: /var/www/portfolio_dev
 
 jobs:
-  build:
+  develop:
     runs-on: self-hosted
 
     strategy:
