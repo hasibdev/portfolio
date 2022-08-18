@@ -24,11 +24,11 @@ jobs:
           node-version: ${{ matrix.node-version }}
         # cache: 'npm'
       - name: "Run Commands"
-        run: |
-          pwd
-          git branch
-          yarn
-          yarn build
-      # - run: pwd
-      # - run: yarn
-      # - run: yarn build
+        # run: |
+        #   pwd
+        #   git branch
+        #   yarn
+        #   yarn build
+      - run: pwd
+      - run: yarn
+      - run: yarn build
