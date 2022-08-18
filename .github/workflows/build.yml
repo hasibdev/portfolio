@@ -25,6 +25,8 @@ jobs:
         # cache: 'npm'
         run: |
           pwd
+          git branch
+          nvm use 16
           yarn
           yarn build
       # - run: pwd
