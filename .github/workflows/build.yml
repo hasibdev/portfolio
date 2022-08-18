@@ -23,6 +23,10 @@ jobs:
         # with:
         # node-version: ${{ matrix.node-version }}
         # cache: 'npm'
-      - run: pwd
-      - run: yarn
-      - run: yarn build
+        run: |
+          pwd
+          yarn
+          yarn build
+      # - run: pwd
+      # - run: yarn
+      # - run: yarn build
