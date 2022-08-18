@@ -22,13 +22,11 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: ${{ matrix.node-version }}
-        # cache: 'npm'
+        cache: "npm"
       - name: "Run Commands"
-        # run: |
-        #   pwd
-        #   git branch
-        #   yarn
-        #   yarn build
-      - run: pwd
-      - run: yarn
-      - run: yarn build
+        run: |
+          pwd
+          git branch
+          node -v
+          yarn
+          yarn build
