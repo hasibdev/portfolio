@@ -24,9 +24,9 @@ jobs:
           node-version: ${{ matrix.node-version }}
 
       - name: "Run Commands"
-        run: |
-          pwd
-          node -v
+          run: |
+            pwd
+            node -v
 
       - name: "Checkout to Master branch"
         run: git checkout master
