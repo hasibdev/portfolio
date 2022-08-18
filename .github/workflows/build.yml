@@ -4,9 +4,9 @@ on:
   push:
     branches: ["master"]
 
-# defaults:
-#   run:
-#     working-directory: /var/www/portfolio
+defaults:
+  run:
+    working-directory: /var/www/portfolio
 
 jobs:
   build:
@@ -21,7 +21,7 @@ jobs:
       - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v3
         with:
-        node-version: ${{ matrix.node-version }}
+          node-version: ${{ matrix.node-version }}
         # cache: 'npm'
       - name: "Run Commands"
         run: |
