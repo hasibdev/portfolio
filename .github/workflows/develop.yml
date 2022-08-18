@@ -2,23 +2,31 @@ name: Build CI
 
 on:
   push:
-    branches: [ "dev" ]
+    branches: ["dev"]
+
+defaults:
+  run:
+    working-directory: /var/www/portfolio_dev
 
 jobs:
-  develop:
-
+  build:
     runs-on: self-hosted
 
     strategy:
       matrix:
-        node-version: [16.x]      
+        node-version: [16.x]
 
     steps:
-    - uses: actions/checkout@v3
-    - name: Use Node.js ${{ matrix.node-version }}
-      uses: actions/setup-node@v3
-      with:
-        node-version: ${{ matrix.node-version }}
-        # cache: 'npm'
-    - run: yarn
-    - run: yarn build
+      - uses: actions/checkout@v3
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ matrix.node-version }}
+
+      - name: "Run Commands"
+        run: |
+          pwd
+          git branch
+          node -v
+          yarn
+          yarn build
