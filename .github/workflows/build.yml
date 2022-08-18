@@ -23,12 +23,10 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
 
-      - name: "Run Commands"
-        run: |
-          pwd
-          git checkout master
-          git branch
-          node -v
+      - name: "Checkout to dev branch"
+        run: git checkout dev
+      - name: "Pull Latest code"
+        run: git pull
       - name: "Install Dependencies"
         run: yarn
       - name: "Build for production"
