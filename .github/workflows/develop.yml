@@ -9,8 +9,8 @@ jobs:
     runs-on: self-hosted
 
     defaults:
-    run:
-      working-directory: /var/www/portfolio_dev
+      run:
+        working-directory: /var/www/portfolio_dev
 
     strategy:
       matrix:
@@ -24,9 +24,9 @@ jobs:
           node-version: ${{ matrix.node-version }}
 
       - name: "Run Commands"
-          run: |
-            pwd
-            node -v
+        run: |
+          pwd
+          node -v
 
       - name: "Checkout to dev branch"
         run: git checkout dev
