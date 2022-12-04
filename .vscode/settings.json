@@ -1,0 +1,18 @@
+{
+  "typescript.format.semicolons": "remove",
+  "javascript.format.semicolons": "remove",
+  "vetur.format.options.tabSize": 2,
+  "vetur.format.defaultFormatter.js": "vscode-typescript",
+  "vetur.format.defaultFormatter.html": "js-beautify-html",
+  "vetur.format.defaultFormatterOptions": {
+    "js-beautify-html": {
+      "wrap_attributes": "auto"
+    },
+    "prettyhtml": {
+      "printWidth": 1000,
+      "singleQuote": false,
+      "wrapAttributes": false,
+      "sortAttributes": false
+    }
+  },
+}
