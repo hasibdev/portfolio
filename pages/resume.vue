@@ -45,7 +45,7 @@
                     class="mr-2"
                     :icon="['fas', 'envelope-square']"
                   ></font-awesome-icon>
-                  <a class="underline" href="mailto:hasib.active@gmail.com"
+                  <a class="underline" href="mailto:hasib.webdev@gmail.com"
                     >hasib.webdev@gmail.com</a
                   >
                 </li>
