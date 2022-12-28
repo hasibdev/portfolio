@@ -8,7 +8,9 @@
     "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate",
-    "test": "jest"
+    "test": "jest",
+    "deploy": "pm2 start npm --name portfolio -- start",
+    "reload": "pm2 reload portfolio"
   },
   "config": {
     "nuxt": {
