@@ -4,10 +4,17 @@
   "private": true,
   "scripts": {
     "dev": "nuxt",
+    "dev:ssr": "nuxt --hostname portfolio.hasib.dev --port 5501",
     "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate",
     "test": "jest"
+  },
+  "config": {
+    "nuxt": {
+      "host": "0.0.0.0",
+      "port": "5501"
+    }
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.36",
