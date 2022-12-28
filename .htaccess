@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteCond %{SERVER_PORT} 443
+RewriteRule ^index.php(.*) http://portfolio.hasib.dev::5501/$1 [P,L]
+RewriteRule (.*) http://portfolio.hasib.dev:5501/$1 [P,L]
