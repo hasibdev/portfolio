@@ -19,4 +19,10 @@ jobs:
           ftp-username: hasib@hasib.dev
           ftp-password: Hasib@123456
           
+      - name: "Run Commands"
+        run: |
+          pwd
+          node -v
+        
+          
       
