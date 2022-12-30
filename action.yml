@@ -1,0 +1,41 @@
+name: Develop CI
+
+on:
+  push:
+    branches: ["dev"]
+
+jobs:
+  develop:
+    runs-on: self-hosted
+
+    defaults:
+      run:
+        working-directory: /var/www/portfolio_dev
+
+    strategy:
+      matrix:
+        node-version: [16.x]
+
+    steps:
+      - uses: actions/checkout@v3
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ matrix.node-version }}
+
+      - name: "Run Commands"
+        run: |
+          pwd
+          node -v
+
+      - name: "Checkout to dev branch"
+        run: git checkout dev
+
+      - name: "Pull Latest code"
+        run: git pull
+
+      - name: "Install Dependencies"
+        run: yarn
+
+      - name: "Build for production"
+        run: yarn build
